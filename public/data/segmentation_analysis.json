@@ -1,28 +1,54 @@
 {
   "Global": {
-    "By Type": {
-      "Sub-Normothermic Perfusion (20–34°C)": {},
-      "Warm or Normothermic Perfusion (35–37°C)": {}
+    "By Product Category": {
+      "Dietary Supplements": {
+        "Vitamins (single & multivitamins)": {},
+        "Minerals": {},
+        "Amino acids & protein supplements": {},
+        "Omega fatty acids": {}
+      },
+      "Sports Nutrition Products": {
+        "Protein powders and concentrates": {},
+        "Energy and endurance supplements": {},
+        "Recovery supplements": {}
+      },
+      "Herbal & Botanical Supplements": {
+        "Herbal extracts": {},
+        "Ayurveda-inspired Nutraceuticals formulations": {},
+        "Plant-based wellness supplements": {}
+      },
+      "Functional Foods & Fortified Nutrition": {
+        "Nutrient-enriched foods": {},
+        "Fortified beverages": {},
+        "Nutritional meal replacements": {}
+      },
+      "Specialty Nutraceuticals Ingredients": {
+        "Probiotics": {},
+        "Collagen peptides": {},
+        "Enzymes": {},
+        "Specialty bioactive compounds": {}
+      }
     },
-    "By Organ Type": {
-      "Liver": {},
-      "Heart": {},
-      "Lung": {},
-      "Kidney": {},
-      "Others (Pancreas, Small bowel / Intestine, Composite Tissues / Limb Perfusion (emerging use cases))": {}
+    "By Dosage Form": {
+      "Tablets": {},
+      "Capsules": {},
+      "Powders": {},
+      "Liquids / Shots": {},
+      "Gummies & Chewables": {}
     },
-    "Application / Use Case": {
-      "Organ Preservation": {},
-      "Viability Assessment": {},
-      "Physiologic Transport": {},
-      "Reconditioning Marginal Organs": {},
-      "Others (Research Use / Protocol development)": {}
+    "By Consumer Application": {
+      "Immunity & Preventive Health": {},
+      "Sports & Fitness Nutrition": {},
+      "Digestive Health & Probiotics": {},
+      "Bone & Joint Health": {},
+      "Cognitive & Mental Wellness": {}
     },
-    "By End User": {
-      "Hospitals & Clinics": {},
-      "Specialty Clinic/Centers": {},
-      "Transplant Centers": {},
-      "Others (Research Institutes/Centers, Organ Procurement Organizations, etc.)": {}
+    "By Distribution Channel": {
+      "Pharmacies & Drugstores": {},
+      "Supermarkets / Hypermarkets": {},
+      "Health & Nutrition Specialty Stores": {},
+      "E-commerce Platforms": {},
+      "Direct Sales / Wellness Networks": {}
     },
     "By Region": {
       "North America": {

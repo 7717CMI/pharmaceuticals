@@ -3,7 +3,7 @@
  * Defines the grouping of charts for different analytical perspectives
  */
 
-export type ChartGroupId = 'market-analysis' | 'coherent-opportunity'
+export type ChartGroupId = 'market-analysis' | 'coherent-opportunity' | 'pharma-database'
 
 export interface ChartGroup {
   id: ChartGroupId
@@ -27,6 +27,13 @@ export const CHART_GROUPS: ChartGroup[] = [
     description: 'Opportunity identification and analysis',
     charts: ['bubble'],
     icon: '🎯'
+  },
+  {
+    id: 'pharma-database',
+    label: 'Pharmaceuticals Database',
+    description: 'Global distributor and importer partner database',
+    charts: ['pharma-database-table'],
+    icon: '🏥'
   }
 ]
 

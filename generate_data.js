@@ -15,40 +15,56 @@ const regions = {
 
 // New segment definitions with market share splits (proportions within each segment type)
 const segmentTypes = {
-  "By Type": {
-    "Sub-Normothermic Perfusion (20–34°C)": 0.55,
-    "Warm or Normothermic Perfusion (35–37°C)": 0.45
+  "By Product Category": {
+    "Vitamins (single & multivitamins)": 0.12,
+    "Minerals": 0.08,
+    "Amino acids & protein supplements": 0.09,
+    "Omega fatty acids": 0.06,
+    "Protein powders and concentrates": 0.10,
+    "Energy and endurance supplements": 0.07,
+    "Recovery supplements": 0.05,
+    "Herbal extracts": 0.07,
+    "Ayurveda-inspired Nutraceuticals formulations": 0.06,
+    "Plant-based wellness supplements": 0.05,
+    "Nutrient-enriched foods": 0.06,
+    "Fortified beverages": 0.05,
+    "Nutritional meal replacements": 0.04,
+    "Probiotics": 0.04,
+    "Collagen peptides": 0.03,
+    "Enzymes": 0.015,
+    "Specialty bioactive compounds": 0.015
   },
-  "By Organ Type": {
-    "Liver": 0.35,
-    "Heart": 0.22,
-    "Lung": 0.18,
-    "Kidney": 0.15,
-    "Others (Pancreas, Small bowel / Intestine, Composite Tissues / Limb Perfusion (emerging use cases))": 0.10
+  "By Dosage Form": {
+    "Tablets": 0.30,
+    "Capsules": 0.25,
+    "Powders": 0.22,
+    "Liquids / Shots": 0.13,
+    "Gummies & Chewables": 0.10
   },
-  "Application / Use Case": {
-    "Organ Preservation": 0.30,
-    "Viability Assessment": 0.25,
-    "Physiologic Transport": 0.20,
-    "Reconditioning Marginal Organs": 0.15,
-    "Others (Research Use / Protocol development)": 0.10
+  "By Consumer Application": {
+    "Immunity & Preventive Health": 0.28,
+    "Sports & Fitness Nutrition": 0.24,
+    "Digestive Health & Probiotics": 0.20,
+    "Bone & Joint Health": 0.16,
+    "Cognitive & Mental Wellness": 0.12
   },
-  "By End User": {
-    "Hospitals & Clinics": 0.40,
-    "Specialty Clinic/Centers": 0.25,
-    "Transplant Centers": 0.25,
-    "Others (Research Institutes/Centers, Organ Procurement Organizations, etc.)": 0.10
+  "By Distribution Channel": {
+    "Pharmacies & Drugstores": 0.28,
+    "Supermarkets / Hypermarkets": 0.22,
+    "Health & Nutrition Specialty Stores": 0.18,
+    "E-commerce Platforms": 0.20,
+    "Direct Sales / Wellness Networks": 0.12
   }
 };
 
 // Regional base values (USD Million) for 2021 - total market per region
-// Global Normothermic Machine Perfusion market ~$300M in 2021, growing ~12% CAGR
+// Global Nutraceuticals market ~$380B in 2021, growing ~8% CAGR
 const regionBaseValues = {
-  "North America": 120,
-  "Europe": 90,
-  "Asia Pacific": 50,
-  "Latin America": 20,
-  "Middle East & Africa": 15
+  "North America": 130000,
+  "Europe": 95000,
+  "Asia Pacific": 105000,
+  "Latin America": 30000,
+  "Middle East & Africa": 20000
 };
 
 // Country share within region (must sum to ~1.0)
@@ -62,43 +78,90 @@ const countryShares = {
 
 // Growth rates (CAGR) per region - slightly different for variety
 const regionGrowthRates = {
-  "North America": 0.115,
-  "Europe": 0.108,
-  "Asia Pacific": 0.145,
-  "Latin America": 0.125,
-  "Middle East & Africa": 0.118
+  "North America": 0.072,
+  "Europe": 0.068,
+  "Asia Pacific": 0.098,
+  "Latin America": 0.085,
+  "Middle East & Africa": 0.078
 };
 
 // Segment-specific growth multipliers (relative to regional base CAGR)
 const segmentGrowthMultipliers = {
-  "By Type": {
-    "Sub-Normothermic Perfusion (20–34°C)": 0.95,
-    "Warm or Normothermic Perfusion (35–37°C)": 1.07
+  "By Product Category": {
+    "Vitamins (single & multivitamins)": 0.95,
+    "Minerals": 0.90,
+    "Amino acids & protein supplements": 1.08,
+    "Omega fatty acids": 0.92,
+    "Protein powders and concentrates": 1.15,
+    "Energy and endurance supplements": 1.12,
+    "Recovery supplements": 1.10,
+    "Herbal extracts": 1.05,
+    "Ayurveda-inspired Nutraceuticals formulations": 1.20,
+    "Plant-based wellness supplements": 1.18,
+    "Nutrient-enriched foods": 1.02,
+    "Fortified beverages": 1.08,
+    "Nutritional meal replacements": 1.06,
+    "Probiotics": 1.22,
+    "Collagen peptides": 1.25,
+    "Enzymes": 1.05,
+    "Specialty bioactive compounds": 1.15
   },
-  "By Organ Type": {
-    "Liver": 1.08,
-    "Heart": 1.05,
-    "Lung": 1.12,
-    "Kidney": 0.95,
-    "Others (Pancreas, Small bowel / Intestine, Composite Tissues / Limb Perfusion (emerging use cases))": 1.20
+  "By Dosage Form": {
+    "Tablets": 0.88,
+    "Capsules": 0.95,
+    "Powders": 1.10,
+    "Liquids / Shots": 1.08,
+    "Gummies & Chewables": 1.25
   },
-  "Application / Use Case": {
-    "Organ Preservation": 0.92,
-    "Viability Assessment": 1.15,
-    "Physiologic Transport": 1.05,
-    "Reconditioning Marginal Organs": 1.18,
-    "Others (Research Use / Protocol development)": 1.10
+  "By Consumer Application": {
+    "Immunity & Preventive Health": 1.12,
+    "Sports & Fitness Nutrition": 1.08,
+    "Digestive Health & Probiotics": 1.15,
+    "Bone & Joint Health": 0.95,
+    "Cognitive & Mental Wellness": 1.18
   },
-  "By End User": {
-    "Hospitals & Clinics": 0.98,
-    "Specialty Clinic/Centers": 1.10,
-    "Transplant Centers": 1.08,
-    "Others (Research Institutes/Centers, Organ Procurement Organizations, etc.)": 1.05
+  "By Distribution Channel": {
+    "Pharmacies & Drugstores": 0.92,
+    "Supermarkets / Hypermarkets": 0.95,
+    "Health & Nutrition Specialty Stores": 1.05,
+    "E-commerce Platforms": 1.25,
+    "Direct Sales / Wellness Networks": 1.08
   }
 };
 
-// Volume multiplier: units per USD Million (rough: ~500 units per $1M for perfusion devices)
-const volumePerMillionUSD = 480;
+// Hierarchy for "By Product Category" - maps parent to leaf segments
+const productCategoryHierarchy = {
+  "Dietary Supplements": [
+    "Vitamins (single & multivitamins)",
+    "Minerals",
+    "Amino acids & protein supplements",
+    "Omega fatty acids"
+  ],
+  "Sports Nutrition Products": [
+    "Protein powders and concentrates",
+    "Energy and endurance supplements",
+    "Recovery supplements"
+  ],
+  "Herbal & Botanical Supplements": [
+    "Herbal extracts",
+    "Ayurveda-inspired Nutraceuticals formulations",
+    "Plant-based wellness supplements"
+  ],
+  "Functional Foods & Fortified Nutrition": [
+    "Nutrient-enriched foods",
+    "Fortified beverages",
+    "Nutritional meal replacements"
+  ],
+  "Specialty Nutraceuticals Ingredients": [
+    "Probiotics",
+    "Collagen peptides",
+    "Enzymes",
+    "Specialty bioactive compounds"
+  ]
+};
+
+// Volume multiplier: units per USD Million (rough: ~15000 units per $1M for nutraceuticals)
+const volumePerMillionUSD = 15000;
 
 // Seeded pseudo-random for reproducibility
 let seed = 42;
@@ -143,10 +206,34 @@ function generateData(isVolume) {
     data[regionName] = {};
     for (const [segType, segments] of Object.entries(segmentTypes)) {
       data[regionName][segType] = {};
+
+      // Generate leaf-level time series first
+      const leafData = {};
       for (const [segName, share] of Object.entries(segments)) {
         const segGrowth = regionGrowth * segmentGrowthMultipliers[segType][segName];
         const segBase = regionBase * share;
-        data[regionName][segType][segName] = generateTimeSeries(segBase, segGrowth, roundFn);
+        leafData[segName] = generateTimeSeries(segBase, segGrowth, roundFn);
+      }
+
+      // For "By Product Category", nest under parent categories with aggregation
+      if (segType === "By Product Category") {
+        for (const [parentName, children] of Object.entries(productCategoryHierarchy)) {
+          const parentNode = { _aggregated: true };
+          // Sum children for parent aggregation
+          for (const year of years) {
+            parentNode[year] = roundFn(children.reduce((sum, child) => sum + (leafData[child][year] || 0), 0));
+          }
+          // Add children as nested entries
+          for (const child of children) {
+            parentNode[child] = leafData[child];
+          }
+          data[regionName][segType][parentName] = parentNode;
+        }
+      } else {
+        // Flat segments
+        for (const [segName, series] of Object.entries(leafData)) {
+          data[regionName][segType][segName] = series;
+        }
       }
     }
 
@@ -171,12 +258,32 @@ function generateData(isVolume) {
       data[country] = {};
       for (const [segType, segments] of Object.entries(segmentTypes)) {
         data[country][segType] = {};
+
+        // Generate leaf-level time series first
+        const leafData = {};
         for (const [segName, share] of Object.entries(segments)) {
           const segGrowth = countryGrowth * segmentGrowthMultipliers[segType][segName];
           const segBase = countryBase * share;
-          // Add slight country-specific variation to segment share
           const shareVariation = 1 + (seededRandom() - 0.5) * 0.1;
-          data[country][segType][segName] = generateTimeSeries(segBase * shareVariation, segGrowth, roundFn);
+          leafData[segName] = generateTimeSeries(segBase * shareVariation, segGrowth, roundFn);
+        }
+
+        // For "By Product Category", nest under parent categories with aggregation
+        if (segType === "By Product Category") {
+          for (const [parentName, children] of Object.entries(productCategoryHierarchy)) {
+            const parentNode = { _aggregated: true };
+            for (const year of years) {
+              parentNode[year] = roundFn(children.reduce((sum, child) => sum + (leafData[child][year] || 0), 0));
+            }
+            for (const child of children) {
+              parentNode[child] = leafData[child];
+            }
+            data[country][segType][parentName] = parentNode;
+          }
+        } else {
+          for (const [segName, series] of Object.entries(leafData)) {
+            data[country][segType][segName] = series;
+          }
         }
       }
     }
@@ -200,4 +307,4 @@ console.log('Generated value.json and volume.json successfully');
 console.log('Value geographies:', Object.keys(valueData).length);
 console.log('Volume geographies:', Object.keys(volumeData).length);
 console.log('Segment types:', Object.keys(valueData['North America']));
-console.log('Sample - North America, By Type:', JSON.stringify(valueData['North America']['By Type'], null, 2));
+console.log('Sample - North America, By Product Category:', JSON.stringify(valueData['North America']['By Product Category'], null, 2));
