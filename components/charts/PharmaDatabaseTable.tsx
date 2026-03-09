@@ -32,53 +32,53 @@ interface DistributorData {
 const sampleData: DistributorData[] = [
   {
     id: 1,
-    name: 'Cencora Inc.\n(formerly AmerisourceBergen Corporation)',
-    yearEstablished: '2001\n(AmerisSource founded 1985; rebranded to Cencora 2023)',
-    headquarters: 'Conshohocken, Pennsylvania, USA\n(NYSE: COR)',
-    keyRegions: 'United States \u2013 nationwide (all 50 states + Puerto Rico + U.S. territories). International: Canada (through McKesson Canada partnership arrangement); select pharmaceutical distribution in Germany and select EU markets via Alliance Healthcare (majority-owned subsidiary). Global specialty logistics through World Courier subsidiary (operating in 50+ countries for specialty pharma, biologics, and clinical trial logistics).',
-    businessModel: 'Integrated pharmaceutical wholesale distributor and specialty logistics company.\nCencora does not manufacture pharmaceutical products; it operates as a pure-play B2B distributor purchasing from manufacturers and supplying to healthcare providers, pharmacy chains, hospital systems, and specialty pharmacies. Also provides 3PL/contract logistics services for biopharmaceutical companies through World Courier.',
-    coreBusinessSegments: 'Prescription pharmaceutical distribution (Rx \u2013 primary, ~95% of revenue); Specialty pharmaceuticals & biologics (oncology, immunology \u2013 largest and fastest-growing segment); Veterinary pharmaceuticals (MWI Animal Health subsidiary); Consumer healthcare & OTC products (through retail pharmacy partnerships); Global specialty logistics & clinical trial supply chain (World Courier).',
-    keyContactPerson: 'Steven H. Collis',
-    designation: 'Chairman, President & Chief Executive Officer',
-    email: 'XX | mrsupport@cencora.com',
-    phone: 'XXXXXXXXXXXX',
-    linkedIn: 'linkedin.com/company/cencora',
-    website: 'cencora.com',
-    productCategoriesHandled: 'Prescription (Rx) branded and generic medicines (full formulary \u2013 30,000+ SKUs); Specialty pharmaceuticals (oncology agents, biologics, biosimilars, immunology drugs, rare disease therapies); Vaccines & immunologicals; Active Pharmaceutical Ingredients (APIs \u2013 through specialty sourcing arm).',
-    brandsDistributed: 'Cencora distributes products from virtually all major pharmaceutical manufacturers including: AbbVie; Pfizer; Bristol Myers Squibb; Johnson & Johnson (Janssen); Merck & Co. (MSD); Eli Lilly; AstraZeneca; Novartis; Amgen; Genentech/Roche; Gilead Sciences; Sanofi; GSK; Takeda; Teva Pharmaceuticals (generics); Mylan/Viatris (generics).',
-    productSpecialization: 'Full-spectrum pharmaceutical distribution with particular depth in: Specialty Pharmaceuticals \u2013 oncology (largest specialty segment), immunology, rare diseases, and biologics/biosimilars (via AmerisourceBergen Specialty Group \u2013 ABSG). Generic pharmaceutical distribution \u2013 one of the three largest US generic drug distributors through Good Neighbor Pharmacy and independent pharmacy network. Beta-lactam antibiotic distribution (directly relevant to Kausikh\u2019s Beta-lactam manufacturing) is handled through standard Rx distribution channels.',
-    therapeuticFocusAreas: 'Oncology (primary specialty \u2013 through ION Solutions, a leading GPO for oncology); Immunology & autoimmune disorders; Infectious diseases & anti-infectives (including beta-lactam antibiotics \u2013 highly relevant to Kausikh); Cardiovascular & metabolic disorders; CNS & neurology; etc.',
-    geographicCoverage: 'United States \u2013 nationwide primary market (all 50 states, PR, and U.S. territories). Through Alliance Healthcare subsidiary: Germany, UK, Spain, Portugal, Italy, and select Central & Eastern European markets. Through World Courier (global specialty logistics): 50+ countries for clinical trial supply and specialty pharma logistics. Combined group revenue FY2023: ~$262 billion.',
-    targetCustomerSegments: 'Retail pharmacy chains, Independent community pharmacies; Hospital systems & integrated delivery networks (IDNs); Specialty pharmacies (oncology, immunology, rare disease); Government procurement (DoD, VA hospitals); etc.',
-    distributionChannels: 'Primary wholesale distribution centre (DC) \u2014 retail pharmacy delivery (daily); Hospital and IDN direct supply via dedicated hospital division; Specialty pharmacy distribution (cold chain, controlled substances, high-value biologics); Government tender participation (VA, DoD pharmaceutical contracts).',
-    alignmentWithPortfolio: 'VERY STRONG ALIGNMENT.\nCencora is one of the three pillars of US pharmaceutical distribution. Generic antibiotic distribution is a core Cencora capability. FDFs (tablets, capsules, oral suspensions) from USFDA-approved Indian manufacturing facilities are a standard Cencora sourcing profile.\nNutraceutical/consumer health products align with Cencora\u2019s OTC distribution arm.',
-    marketEntryPotential: 'VERY HIGH.\nThe US is the world\u2019s largest pharmaceutical import market (~$200B+ annual pharmaceutical imports).\nCencora\u2019s network of 7,000+ independent pharmacy members and relationships with all major hospital chains means a single distribution agreement unlocks national US market access.\nUSFDA approval of Kausikh\u2019s manufacturing facility is the primary prerequisite.',
-    partnershipSuitability: 'HIGH.\nKey prerequisites: USFDA facility registration and 483 inspection clearance; ANDA approval for target molecules; cGMP compliance (21 CFR Parts 210/211); DEA registration (for controlled substances, if applicable); Cencora manufacturer contracting process (typically 6\u201312 months from initial contact).\n\nRecommended engagement: ANDA filing with USFDA for priority generic molecules (amoxicillin, amoxicillin-clavulanate, cephalexin \u2013 large US market), followed by engagement with Cencora\u2019s Generics & Biosimilars Manufacturer Services team.',
+    name: 'KeHE Distributors LLC',
+    yearEstablished: '1952',
+    headquarters: 'Naperville, Illinois, USA',
+    keyRegions: 'All 50 U.S. states + Puerto Rico; select distribution into Canada. Operates 18 regional distribution centres across the continental USA, enabling next-day delivery to most major markets.',
+    businessModel: 'Pure-play wholesale distributor / wholesaler. KeHE does not manufacture products; it operates exclusively as a B2B intermediary between suppliers/brands and retail trade buyers.',
+    coreBusinessSegments: 'Dietary supplements & nutraceuticals (primary); natural & organic specialty foods; health & beauty products; refrigerated & frozen natural products.',
+    keyContactPerson: 'Darin Bhatt',
+    designation: 'President & Chief Executive Officer',
+    email: 'XX | kehe.com/become-a-vendor',
+    phone: 'XXXXXXXXXX',
+    linkedIn: 'linkedin.com/company/kehe-distributors',
+    website: 'kehe.com',
+    productCategoriesHandled: 'Vitamins & minerals; herbal & botanical supplements; sports nutrition (protein, BCAAs, pre-workout); probiotics & digestive health; Omega-3 & essential fatty acids; weight management; beauty nutrition; organic specialty supplements; functional foods & beverages.',
+    brandsDistributed: 'Garden of Life; Nordic Naturals; New Chapter; Nature\u2019s Way; Solgar (NBTY); Ancient Nutrition; MegaFood; Host Defense; Gaia Herbs; Garden Protein; Nutiva; Manitoba Harvest. (KeHE distributes 5,000+ natural, organic and specialty brands nationally.)',
+    productSpecialization: 'Full-spectrum natural & organic supplement distribution. Strong expertise in clean-label, non-GMO, USDA Organic certified, and NSF/Informed-Sport certified supplement categories. Deep capability in ambient and refrigerated supplement logistics.',
+    therapeuticFocusAreas: 'Immunity & antioxidants; digestive health & gut microbiome; sports & active nutrition; women\u2019s health (prenatal, hormonal balance); children\u2019s nutrition; heart & cardiovascular health; cognitive wellness; sleep & stress.',
+    geographicCoverage: 'United States (nationwide \u2013 all 50 states); Puerto Rico; limited Canadian distribution through partner network. Key metro hubs: Chicago, Los Angeles, Dallas, New York, Atlanta, Seattle.',
+    targetCustomerSegments: 'Natural / specialty grocery retailers (Whole Foods Market, Sprouts Farmers Market, Fresh Market); independent natural food retailers; conventional grocery chains (Kroger, Albertsons, Publix); drug retailers (Walgreens, CVS); club stores; e-commerce platforms (Amazon.com, Thrive Market).',
+    distributionChannels: 'B2B wholesale distribution centre (DC) to retail (primary channel); Direct-Store-Delivery (DSD) for select categories; E-commerce drop-ship fulfilment support; Foodservice distribution. EDI-enabled ordering for all retail partners.',
+    alignmentWithPortfolio: 'STRONG ALIGNMENT.\nKeHE actively sources from cGMP and USFDA-inspected manufacturing facilities globally, including India. Categories directly matching Kausikh\u2019s Nutraceuticals output: vitamins & minerals, herbal/botanical supplements, sports nutrition proteins, and functional health products. FideFIT brand positioning (clean-label, wellness-focused) is well-suited to KeHE\u2019s natural & organic channel.',
+    marketEntryPotential: 'HIGH.\nKeHE\u2019s national distribution infrastructure (18 DCs, 30,000+ retail touchpoints) offers Kausikh an immediate pathway to scale a new brand across the US. KeHE\u2019s category managers actively evaluate new supplier and brand opportunities quarterly. Private-label supply is also a strong initial engagement model.',
+    partnershipSuitability: 'HIGH.\nPrerequisites: USFDA facility registration, cGMP certification (21 CFR Part 111), and compliance with DSHEA labelling. KeHE has established onboarding processes for Indian nutraceutical manufacturers. Competitive pricing vs. US and EU suppliers is critical. Recommend initiating via KeHE\u2019s Supplier Portal and requesting a category manager meeting at Natural Products Expo West or SupplySide West.',
   },
   {
     id: 2,
-    name: 'PHOENIX Pharma Group\n(PHOENIX Pharmahandel GmbH & Co. KG)',
-    yearEstablished: '1994\n(PHOENIX Group name; roots in Herba Chemosan Group, est. 1948)',
-    headquarters: 'Mannheim, Germany\n(Private \u2013 owned by PHOENIX Group Holding, Hamburg)',
-    keyRegions: '29 European countries \u2013 one of the most extensive pharmaceutical distribution networks in Europe. Key markets: Germany (HQ, largest single market), UK (through Numark/Alliance), Netherlands, Belgium, Norway, Sweden, Denmark, Finland, Austria, Switzerland, Poland, Czech Republic, Slovakia, Hungary, Romania, Serbia, Croatia, Bulgaria, and Baltic states. Group operates 27,000+ pharmacies (owned, franchised, or partnered) and 190+ pharmaceutical wholesale distribution centres across Europe.',
-    businessModel: 'Integrated pharmaceutical wholesale distributor, pharmacy retailer, and healthcare services company.\nPHOENIX operates at multiple levels of the pharmaceutical supply chain:\n(1) Wholesale pharmaceutical distribution (B2B \u2013 primary revenue driver);\n(2) Owned and franchised retail pharmacy chains across Europe;\n(3) Pre-wholesale/parallel trade;\n(4) Pharmaceutical logistics and cold chain services for manufacturers.',
-    coreBusinessSegments: 'Prescription pharmaceutical wholesale distribution (primary \u2013 ~85% of revenue); Generic medicines distribution (significant and growing \u2013 leveraging German and European generic tender markets); Consumer healthcare & OTC products; Medical devices & healthcare consumables; Pharmaceutical logistics & contract supply chain services; Retail pharmacy operations (BENU Pharmacies franchise; Rowlands Pharmacy UK, and other national pharmacy chains across 18 European countries).',
-    keyContactPerson: 'Oliver Windholz\n(Chief Executive Officer \u2013 verify via phoenixgroup.eu/en/about-us/management)',
-    designation: 'Chief Executive Officer',
-    email: 'XX | General: info@phoenixgroup.eu',
-    phone: 'XXXXXXXXXXXX',
-    linkedIn: 'linkedin.com/company/phoenix-group-european-healthcare',
-    website: 'phoenixgroup.eu',
-    productCategoriesHandled: 'Prescription (Rx) branded and generic medicines (full European formulary \u2013 100,000+ SKUs); Generic and biosimilar medicines (growing share of European tender markets); Biologics and specialty pharmaceuticals; Active Pharmaceutical Ingredients (APIs \u2013 through select sourcing partnerships with Indian and Chinese API manufacturers); Finished Dosage Forms (FDFs) \u2013 tablets, capsules, injectables, inhalers, patches; Consumer healthcare & OTC products; Medical devices & diagnostics.',
-    brandsDistributed: 'PHOENIX distributes products from all major European and global pharmaceutical manufacturers: Pfizer; Novartis; Roche; AstraZeneca; Sanofi; GSK; Bayer; Boehringer Ingelheim; Merck KGaA (Germany); Teva (generics \u2013 major); Sandoz (Novartis generics \u2013 now independent); STADA Arzneimittel (generic pharma \u2013 Germany); Hexal (Sandoz Germany); Ratiopharm (Teva Germany); Indian generic manufacturers supplying EU market via EU-GMP approved facilities (Sun Pharma, Dr. Reddy\u2019s, Cipla EU-registered products).',
-    productSpecialization: 'Full-spectrum pharmaceutical wholesale with particular depth in: European generic medicine distribution across national tender markets (Germany, Nordics, Netherlands, CEE \u2013 where generic penetration is high and cost is a key procurement driver);\n\nBeta-lactam antibiotic distribution in Europe \u2013 amoxicillin, amoxicillin-clavulanate, piperacillin-tazobactam, and cephalosporins are high-volume European generic categories (directly relevant to Kausikh\u2019s beta-lactam manufacturing); Cold chain distribution for biologics and vaccines (PHOENIX operates EU GDP-compliant cold chain logistics across all 29 countries); Parallel trade pharmaceutical distribution (European internal market flows).',
-    therapeuticFocusAreas: 'Anti-infectives & antibiotics (beta-lactams, fluoroquinolones, macrolides \u2013 high-volume European market \u2013 directly aligned with Kausikh\u2019s beta-lactam capability); Cardiovascular & metabolic disorders (largest therapeutic area by volume in Europe);',
-    geographicCoverage: '29 European countries (comprehensive EU + EEA + select non-EU European markets). Primary commercial weight in: Germany (largest European pharma market), UK, Netherlands, Belgium, Scandinavia (Norway, Sweden, Denmark, Finland), Austria, Switzerland, Czech Republic, Poland (through partnerships), Romania, Bulgaria, and Baltic states (Estonia, Latvia, Lithuania). Group annual revenue: ~EUR 40 billion (FY2022/23), making PHOENIX the 2nd largest pharmaceutical wholesaler in Europe.',
-    targetCustomerSegments: 'Retail pharmacies (primary): 27,000+ owned, franchised, and partnered pharmacies across Europe (BENU Pharmacies in Netherlands, Belgium, CEE; Rowlands Pharmacy in UK; Pharmaprix and others). Hospital pharmacies and clinical procurement. Independent pharmacies (across all 29 operating countries). Government and public health procurement (national health service tenders \u2013 NHS UK, GKV Germany, Zorgverzekering Netherlands). Wholesale buyers and secondary distributors in smaller European markets.',
-    distributionChannels: 'Full-line wholesale distribution to pharmacies (primary \u2013 daily delivery); Hospital and institutional supply chain management; Government and NHS/public health tender fulfilment; Pre-wholesale/parallel trade distribution (EU internal market); Cold chain and controlled substance logistics (EU GDP compliant); Pharmaceutical manufacturer outsourced distribution (3PL services); E-procurement and EDI order management platform (PhoenixOrder).',
-    alignmentWithPortfolio: 'VERY STRONG ALIGNMENT.\nPHOENIX is the primary distribution gateway to Europe\u2019s pharmaceutical market for Indian generic and specialty pharma manufacturers.\nKausikh\u2019s Beta-lactam manufacturing (amoxicillin, amoxicillin-clavulanate, penicillin derivatives) maps directly to Europe\u2019s highest-volume generic antibiotic categories, for which PHOENIX is a major distributor across 23 markets.',
-    marketEntryPotential: 'VERY HIGH.\nEU is the world\u2019s second-largest pharmaceutical market with strong generic medicine penetration \u2013 Germany (GKV mandatory generic substitution), Netherlands, UK (NHS generic procurement), and CEE markets all heavily rely on cost-competitive generic supply from India.\nPHOENIX\u2019s 23-country network means a single supply agreement can unlock pan-European distribution.',
-    partnershipSuitability: 'VERY HIGH.\nKey prerequisites for EU market entry via PHOENIX:\nEU-GMP certification (mandatory \u2013 from CDSCO-approved and EMA/national authority inspected facility); Marketing Authorisation (MA) \u2013 either full MA or MR/DCP procedure in 1\u20133 EU countries to start; GDP-compliant quality agreements with PHOENIX; REACH/CLP compliance for API supply.',
+    name: 'Julphar \u2013 Gulf Pharmaceutical Industries PSC',
+    yearEstablished: '1980',
+    headquarters: 'Ras Al Khaimah, UAE\n(Listed on Abu Dhabi Securities Exchange \u2013 ADX)',
+    keyRegions: 'UAE (headquarters & primary manufacturing); Saudi Arabia; Kuwait; Bahrain; Qatar; Oman; and export to 50+ countries across MENA, East Africa, CIS, and South Asia. Maintains direct sales forces and regulatory registrations across GCC markets.',
+    businessModel: 'Integrated pharmaceutical & nutraceutical company: manufacturer, importer, and distributor. Julphar manufactures generic pharmaceuticals and consumer health/nutraceutical products, while also importing and distributing complementary international health brands across its GCC distribution network.',
+    coreBusinessSegments: 'Generic pharmaceuticals (primary); Consumer healthcare & OTC products; Nutraceuticals & dietary supplements; Medical devices & hospital supplies. Consumer Health & Nutraceuticals represents a growing strategic division.',
+    keyContactPerson: 'Business Development / Consumer Health Division',
+    designation: 'VP / Director \u2013 Consumer Healthcare & Nutraceuticals',
+    email: 'XX | ir@julphar.net (Investor Relations); info@julphar.net (General)',
+    phone: 'XXXXXXXXXX',
+    linkedIn: 'linkedin.com/company/julphar',
+    website: 'julphar.net',
+    productCategoriesHandled: 'Vitamins & minerals (A, B-complex, C, D3, E, K); herbal & Ayurvedic supplements; immune health products; maternal & infant nutrition supplements; OTC nutraceuticals; sports & active nutrition (growing segment); digestive health & probiotics; weight management products.',
+    brandsDistributed: 'Julphar proprietary brands (Julvit range of vitamins; Julphar OTC consumer health brands). Also acts as licensed distributor for select international nutraceutical brands in GCC markets. Private-label nutraceutical manufacturing and distribution for regional pharmacy chains.',
+    productSpecialization: 'GCC-specific nutraceutical specialization: Halal-certified formulations (critical for GCC market); maternal & infant health; vitamins & immunity support. Strong in pharmacy-channel and hospital supplement distribution. Regulatory expertise in SFDA (Saudi), DOH (UAE), and MOPH (Qatar) product registration.',
+    therapeuticFocusAreas: 'Immunity & infection prevention; maternal, neonatal & paediatric health; vitamins & micronutrient deficiency management; digestive & gut health; cardiovascular wellness; bone & joint health (Vitamin D3, Calcium, K2); anti-ageing & skin nutrition.',
+    geographicCoverage: 'UAE (primary hub); Saudi Arabia (largest GCC market \u2013 SFDA registered); Kuwait; Bahrain; Qatar; Oman. Export reach to Jordan, Egypt, Sudan, Iraq, and 40+ additional markets via agent/distributor network. Total operational footprint: 50+ countries.',
+    targetCustomerSegments: 'Hospital pharmacies & institutional procurement (government tenders: MOH UAE, MOH KSA); retail pharmacies (Boots UAE, Life Pharmacy, Aster Pharmacy, Nahdi Medical \u2013 KSA); supermarkets & hypermarkets (Carrefour ME, LuLu Hypermarket); online health platforms (Noon.com Health, Amazon.ae); specialty wellness clinics.',
+    distributionChannels: 'Direct supply to GCC pharmacies and hospital groups; government tender participation (key revenue driver in KSA); B2B supply to sub-distributors in secondary GCC markets; modern trade retail channel; e-commerce & telehealth platform supply.',
+    alignmentWithPortfolio: 'VERY STRONG ALIGNMENT.\nJulphar\u2019s Consumer Healthcare division imports and locally registers nutraceutical products that directly match Kausikh\u2019s product categories (vitamins, herbal supplements, immunity products). Julphar is an established GCC regulatory navigator \u2013 a critical advantage for Indian manufacturers seeking SFDA/ESMA approvals. FideFIT can be positioned as an authentic wellness brand under Julphar\u2019s distribution umbrella with Halal certification.',
+    marketEntryPotential: 'VERY HIGH.\nGCC is the fastest-growing nutraceutical import market globally (CAGR 8.4%). Julphar\u2019s existing SFDA (Saudi Arabia), DOH (UAE), and MOPH (Qatar) product registrations dramatically compress Kausikh\u2019s time-to-market. Julphar\u2019s established government tender relationships provide volume certainty for institutional supplement supply.',
+    partnershipSuitability: 'VERY HIGH.\nJulphar represents an ideal first-entry GCC partner for both FideFIT brand distribution AND B2B contract manufacturing supply. Key requirements: WHO-GMP certification (preferred), Halal certification (ESMA or equivalent), Arabic-language labelling compliance. Recommend direct engagement with Julphar\u2019s Business Development and Licensing team for partnership structuring \u2013 both product supply and private-label nutraceutical manufacturing models are viable.',
   },
   {
     id: 3, name: 'Customer 3', yearEstablished: '\u0436\u0436', headquarters: '\u0436\u0436', keyRegions: '\u0436\u0436', businessModel: '\u0436\u0436', coreBusinessSegments: '\u0436\u0436', keyContactPerson: '\u0436\u0436', designation: '\u0436\u0436', email: '\u0436\u0436', phone: '\u0436\u0436', linkedIn: '\u0436\u0436', website: '\u0436\u0436', productCategoriesHandled: '\u0436\u0436', brandsDistributed: '\u0436\u0436', productSpecialization: '\u0436\u0436', therapeuticFocusAreas: '\u0436\u0436', geographicCoverage: '\u0436\u0436', targetCustomerSegments: '\u0436\u0436', distributionChannels: '\u0436\u0436', alignmentWithPortfolio: '\u0436\u0436', marketEntryPotential: '\u0436\u0436', partnershipSuitability: '\u0436\u0436',
@@ -104,8 +104,8 @@ const allColumns: { key: keyof DistributorData; label: string; section: string; 
   { key: 'yearEstablished', label: 'Year Established', section: 'Company Overview', sectionColor: '#4a5568', sectionSubtitle: '' },
   { key: 'headquarters', label: 'Headquarters Location / Country', section: 'Company Overview', sectionColor: '#4a5568', sectionSubtitle: '' },
   { key: 'keyRegions', label: 'Key Regions / Markets Served / operational reach', section: 'Company Overview', sectionColor: '#4a5568', sectionSubtitle: '' },
-  { key: 'businessModel', label: 'Business Model \u2013 Distributor, Importer, Wholesaler, or Integrated Pharmaceutical Supply Company', section: 'Company Overview', sectionColor: '#4a5568', sectionSubtitle: '' },
-  { key: 'coreBusinessSegments', label: 'Core Business Segments \u2013 Prescription Pharmaceuticals, Generic Medicines, Biologics, Vaccines, Active Pharmaceutical Ingredients, Consumer Healthcare.', section: 'Company Overview', sectionColor: '#4a5568', sectionSubtitle: '' },
+  { key: 'businessModel', label: 'Business Model \u2013 distributor, importer, wholesaler, or integrated nutraceutical supplier.', section: 'Company Overview', sectionColor: '#4a5568', sectionSubtitle: '' },
+  { key: 'coreBusinessSegments', label: 'Core Business Segments \u2013 nutraceuticals, pharmaceuticals, functional foods, or wellness products.', section: 'Company Overview', sectionColor: '#4a5568', sectionSubtitle: '' },
   { key: 'keyContactPerson', label: 'Key Contact Person', section: 'Company Overview', sectionColor: '#4a5568', sectionSubtitle: '' },
   // Contact Details
   { key: 'keyContactPerson', label: 'Key Contact Person', section: 'Contact Details', sectionColor: '#ed8936', sectionSubtitle: '' },
@@ -115,22 +115,19 @@ const allColumns: { key: keyof DistributorData; label: string; section: string; 
   { key: 'linkedIn', label: 'LinkedIn Profile', section: 'Contact Details', sectionColor: '#ed8936', sectionSubtitle: '' },
   { key: 'website', label: 'Website URL', section: 'Contact Details', sectionColor: '#ed8936', sectionSubtitle: '' },
   // Product Portfolio
-  { key: 'productCategoriesHandled', label: 'Pharmaceutical Product Categories Handled \u2013 prescription pharmaceuticals, generic medicines, biologics, vaccines, active pharmaceutical ingredients, finished dosage formulations, and consumer healthcare products', section: 'Product Portfolio', sectionColor: '#f6ad55', sectionSubtitle: 'Evaluating the types of nutraceutical products handled by the distributor' },
-  { key: 'brandsDistributed', label: 'Brands Distributed \u2013 global or regional pharmaceutical brands handled by the distributor', section: 'Product Portfolio', sectionColor: '#f6ad55', sectionSubtitle: '' },
-  { key: 'productSpecialization', label: 'Product Specialization \u2013 specialization in specific product categories such as oncology drugs, anti-infectives, cardiovascular therapies, central nervous system drugs, specialty pharmaceuticals, or complex formulations.', section: 'Product Portfolio', sectionColor: '#f6ad55', sectionSubtitle: '' },
-  { key: 'therapeuticFocusAreas', label: 'Therapeutic Focus Areas \u2013 focus across therapeutic areas such as oncology, immunology, infectious diseases, cardiology, neurology, metabolic disorders, and respiratory diseases.', section: 'Product Portfolio', sectionColor: '#f6ad55', sectionSubtitle: '' },
+  { key: 'productCategoriesHandled', label: 'Nutraceutical Product Categories Handled \u2013 dietary supplements, sports nutrition, herbal supplements, functional foods, etc.', section: 'Product Portfolio', sectionColor: '#f6ad55', sectionSubtitle: 'Evaluating the types of nutraceutical products handled by the distributor' },
+  { key: 'brandsDistributed', label: 'Brands Distributed \u2013 global or regional nutraceutical brands handled by the distributor.', section: 'Product Portfolio', sectionColor: '#f6ad55', sectionSubtitle: '' },
+  { key: 'productSpecialization', label: 'Product Specialization \u2013 specialization in specific product categories such as sports nutrition, herbal formulations, or specialty supplements.', section: 'Product Portfolio', sectionColor: '#f6ad55', sectionSubtitle: '' },
+  { key: 'therapeuticFocusAreas', label: 'Therapeutic Focus Areas \u2013 product focus across health areas such as immunity, digestive health, joint health, and sports nutrition.', section: 'Product Portfolio', sectionColor: '#f6ad55', sectionSubtitle: '' },
   // Distribution Coverage
   { key: 'geographicCoverage', label: 'Geographic Market Coverage \u2013 countries or regions where the distributor operates.', section: 'Distribution Coverage', sectionColor: '#718096', sectionSubtitle: "Assessing the distributor's geographic reach and market access" },
-  { key: 'targetCustomerSegments', label: 'Target Customer Segments \u2013 hospitals, retail pharmacies, clinics, government procurement agencies, healthcare institutions, and wholesale buyers.', section: 'Distribution Coverage', sectionColor: '#718096', sectionSubtitle: '' },
-  { key: 'distributionChannels', label: 'Distribution Channels \u2013 wholesale supply to hospitals, retail pharmacy networks, clinics, government tenders, institutional buyers, and specialty distribution channels.', section: 'Distribution Coverage', sectionColor: '#718096', sectionSubtitle: '' },
+  { key: 'targetCustomerSegments', label: 'Target Customer Segments \u2013 pharmacies, health stores, gyms, wellness clinics, or e-commerce platforms.', section: 'Distribution Coverage', sectionColor: '#718096', sectionSubtitle: '' },
+  { key: 'distributionChannels', label: 'Distribution Channels (wholesale supply to retailers, pharmacies and healthcare practitioners network, wellness networks, etc.)', section: 'Distribution Coverage', sectionColor: '#718096', sectionSubtitle: '' },
   // Partnership Potential
-  { key: 'alignmentWithPortfolio', label: "Alignment with Kausikh's Nutraceutical Product Portfolio \u2013 compatibility with prescription pharmaceuticals, generic medicines, biologics, vaccines, active pharmaceutical ingredients, and finished dosage formulations.", section: 'Partnership Potential', sectionColor: '#63b3ed', sectionSubtitle: "Evaluating the distributor's suitability as a potential partner" },
-  { key: 'marketEntryPotential', label: 'Market Entry Potential \u2013 ability to support new product launches, regulatory pathway navigation, commercialization, and expansion across target markets.', section: 'Partnership Potential', sectionColor: '#63b3ed', sectionSubtitle: '' },
-  { key: 'partnershipSuitability', label: 'Partnership Suitability Assessment \u2013 qualitative evaluation of distributor fit based on product portfolio alignment, therapeutic focus, market presence, channel strength, and regulatory capabilities.', section: 'Partnership Potential', sectionColor: '#63b3ed', sectionSubtitle: '' },
+  { key: 'alignmentWithPortfolio', label: "Alignment with Kausikh's Nutraceutical Product Portfolio \u2013 compatibility with dietary supplements, herbal nutraceuticals, and sports nutrition products.", section: 'Partnership Potential', sectionColor: '#63b3ed', sectionSubtitle: "Evaluating the distributor's suitability as a potential partner" },
+  { key: 'marketEntryPotential', label: 'Market Entry Potential \u2013 ability to support new brand introduction and product launches.', section: 'Partnership Potential', sectionColor: '#63b3ed', sectionSubtitle: '' },
+  { key: 'partnershipSuitability', label: 'Partnership Suitability Assessment \u2013 qualitative evaluation of distributor fit based on portfolio and market presence.', section: 'Partnership Potential', sectionColor: '#63b3ed', sectionSubtitle: '' },
 ]
-
-// Deduplicate: remove the duplicate keyContactPerson from Company Overview (it appears at end of Company Overview AND start of Contact Details in the images)
-// Company Overview ends with "Key Contact Person", then Contact Details section repeats it. Keep both as in the image.
 
 // Build unique section groups for the section header rows
 const sectionGroups: { name: string; color: string; subtitle: string; colSpan: number; startIdx: number }[] = []
@@ -170,7 +167,7 @@ export default function PharmaDatabaseTable({ title, height = 600 }: Props) {
     const url = URL.createObjectURL(blob)
     const a = document.createElement('a')
     a.href = url
-    a.download = 'pharma_database.csv'
+    a.download = 'nutraceuticals_database.csv'
     a.click()
     URL.revokeObjectURL(url)
   }
@@ -180,13 +177,13 @@ export default function PharmaDatabaseTable({ title, height = 600 }: Props) {
       {/* Header */}
       <div className="bg-gradient-to-r from-[#2d3748] to-[#4a5568] text-white px-6 py-4 rounded-t-lg">
         <h2 className="text-sm font-bold text-center">
-          PARTNER IDENTIFICATION \u2013 GLOBAL DISTRIBUTOR / IMPORTER DATABASE | Qualified Partner Prospects
+          PARTNER IDENTIFICATION &ndash; GLOBAL DISTRIBUTOR / IMPORTER DATABASE | Qualified Partner Prospects
         </h2>
         <p className="text-[10px] text-center mt-1 text-gray-300">
-          This section will develop a structured global database of pharmaceutical distributors and importers, enabling Kausikh Therapeutics Pvt Ltd to identify potential B2B distribution partners and market entry channels.
+          This section will develop a structured global database of nutraceutical distributors and importers, enabling Kausikh Therapeutics Pvt Ltd to identify potential B2B distribution partners and market entry channels.
         </p>
         <p className="text-[10px] text-center mt-0.5 text-gray-300">
-          The analysis will focus on distribution partners with active presence in prescription pharmaceuticals, generic medicines, biologics, vaccines, active pharmaceutical ingredients, and finished dosage formulations across key regions.
+          The analysis will focus on companies actively distributing dietary supplements, sports nutrition products, herbal nutraceuticals, and functional nutrition products across key international markets.
         </p>
       </div>
 

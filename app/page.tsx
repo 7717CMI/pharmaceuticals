@@ -206,7 +206,7 @@ export default function DashboardPage() {
                 Coherent Dashboard
               </h1>
               <h2 className="text-sm text-black">
-                {dashboardName || 'Global Pharmaceutical Market'}
+                {dashboardName || 'Global Nutraceuticals Market'}
               </h2>
             </div>
           </div>
@@ -409,7 +409,7 @@ export default function DashboardPage() {
                                 : 'border-transparent text-black hover:text-black hover:border-gray-300'
                             }`}
                           >
-                            Pharmaceuticals Database
+                            Nutraceuticals Database
                           </button>
                         )}
                       </>
@@ -531,7 +531,7 @@ export default function DashboardPage() {
                     {activeTab === 'pharma-database-table' && (
                       <div id="pharma-database-table">
                         <PharmaDatabaseTable
-                          title="Pharmaceuticals Database"
+                          title="Nutraceuticals Database"
                           height={600}
                         />
                       </div>
@@ -639,7 +639,7 @@ export default function DashboardPage() {
                     {isChartVisible('pharma-database-table') && (
                       <div className="border-b pb-8">
                         <PharmaDatabaseTable
-                          title="Pharmaceuticals Database"
+                          title="Nutraceuticals Database"
                           height={600}
                         />
                       </div>

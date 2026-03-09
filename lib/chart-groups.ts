@@ -30,7 +30,7 @@ export const CHART_GROUPS: ChartGroup[] = [
   },
   {
     id: 'pharma-database',
-    label: 'Pharmaceuticals Database',
+    label: 'Nutraceuticals Database',
     description: 'Global distributor and importer partner database',
     charts: ['pharma-database-table'],
     icon: '🏥'
